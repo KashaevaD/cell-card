@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="row">
+    <app-cards class="cards" (removeCard)="deleteCard($event)" [img]="img" *ngFor="let img of data"></app-cards>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.card{
+  border: 2px solid green;
+  width: 100px;
+  height: 100px;
+  border-radius:10px;
+  background-size: cover;
+  margin:10px;
+  margin-left:60px;
+}
