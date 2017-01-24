@@ -87,34 +87,6 @@ export class AppComponent {
         this.currentOpened = [];
       } 
 
-
-
-    // if (!this.tempSell.class) {
-    //   this.tempSell = cell;
-
-    // } else {
-    //   this.stopClick = true;
-    //   setTimeout(() => {
-    //     if (this.tempSell === cell) {
-    //       cell.isOpen = false;
-
-    //     } else if (this.tempSell.class === cell.class) {
-    //       this.tempSell.isHidden = !this.tempSell.isHidden;
-    //       cell.isHidden = !cell.isHidden;
-    //       this.count += 2;
-    //       if (this.count === this.list.length) {
-    //         this.checkTimer = false;
-    //         this.showField = false;
-    //       }
-    //     } else {
-    //       this.tempSell.isOpen = false;
-    //       cell.isOpen = false;
-    //     }
-    //     this.tempSell = {};
-    //     this.stopClick = false;
-    //   }, 300);
-    // }
-
   }
 
 
