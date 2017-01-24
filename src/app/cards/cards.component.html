@@ -1,2 +1,2 @@
 <div *ngIf="img.isOpen" [ngStyle]="{'background-image': 'url(' + img.src + ')'}" (click)="clickCard(img)"  class="card"></div>
-<div *ngIf ="!img.isOpen" [ngStyle]="{'background-image': 'url(assets/img/game.jpg)'}" (click)="clickCard(img)"  class="card"></div>
+<div *ngIf ="!img.isOpen" [ngStyle]="{'background-image': 'url(assets/img/game.jpg)'}" (click)="clickCard(img)"  [ngClass]="{hideCard: img.isHidden}" class="card"></div>
